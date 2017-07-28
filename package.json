@@ -24,6 +24,6 @@
     "commander": "^2.11.0",
     "perfectionist": "^2.4.0",
     "postcss": "^6.0.8",
-    "theft": "^1.0.3"
+    "theft": "^1.0.5"
   }
 }
