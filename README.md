@@ -1,14 +1,26 @@
 # larceny
 Command line interface to PostCSS theft plugin.
 
-## Installation
+## NPX
+
+```Bash
+
+$ npx larceny -ca -u https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css -s .btn -t .my-button -f my-style.css
+
+
+```
+
+## NPM -g Installation
 
 ```Bash
 
 $ npm -g install larceny
 
 ```
-## Prepare a CSS file
+
+## Prepare a CSS file (optional if -ca is used)
+
+You can skip this step if you use ```-c``` to create target file and ```-a``` to append then missing .my-button target selector.
 
 ```Bash
 
@@ -48,5 +60,20 @@ $ cat style.css
          -o-transition: all .2s ease-in-out;
             transition: all .2s ease-in-out;
 }
+
+```
+
+## Usage
+
+```
+
+  -V, --version                     output the version number
+  -u, --url [url]                   Url of remote file.
+  -s, --source-selector [selector]  Source selector
+  -t, --target-selector [selector]  Target selector (in local file)
+  -f, --file [path]                 Add the specified type of cheese [styles.css]
+  -c, --create-file                 Create css file if it does not exist
+  -a, --append-target               Create target selector if missing
+  -h, --help                        output usage information
 
 ```
