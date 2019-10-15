@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/fantasyui-com/larceny#readme",
   "dependencies": {
-    "commander": "^2.20.1",
+    "commander": "^2.20.3",
     "perfectionist": "^2.4.0",
     "postcss": "^6.0.8",
     "theft": "^1.1.0",
