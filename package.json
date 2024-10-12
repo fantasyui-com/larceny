@@ -1,6 +1,6 @@
 {
   "name": "larceny",
-  "version": "1.29.0",
+  "version": "1.30.0",
   "description": "Command line interface to PostCSS theft plugin.",
   "main": "index.js",
   "bin": {
